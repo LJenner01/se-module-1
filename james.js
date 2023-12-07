@@ -10,8 +10,10 @@ function JamesB() {
     //flattenArray([1, 2, [3, [4, 5, 6], 7], 8]);
     palindrome("dogyyyy");
     simpleInt(20000,5,2);
-    numberRandom(10, 30)
-    factorial(5)
+    numberRandom(10, 30);
+    factorial(5);
+    countLetter("dogfood", "o")
+
 }
 
 // Question 1
@@ -105,6 +107,18 @@ function factorial(num) {
         result *= i
     return console.log(result)
 
+}
+
+// Question 16
+
+function countLetter(word, letter) {
+    var count = 0
+    for (i=0; i < word.length; i++) {
+        if (word.charAt(i)==letter) {
+            count ++
+        }
+    }
+    return console.log(count)
 }
 
 module.exports = JamesB;
