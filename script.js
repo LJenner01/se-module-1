@@ -1,5 +1,7 @@
 const JamesB = require("./james.js");
 
+const Alex = require("./alex.js");
+
 function main(){
     console.log('getting started...');
     dylanFunction();
@@ -17,5 +19,4 @@ function lukeWork(){
 function ernieWork(){
     console.log('ernie function')
 };
-main("alex.js");
 console.log(main())
