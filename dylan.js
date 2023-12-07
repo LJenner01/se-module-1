@@ -44,3 +44,21 @@ function reversenum(num) {
     return reverse;
 }
 console.log(reversenum(234));
+
+// 7. Count number of Vowels in String
+
+function countVowels(stringRef) {
+
+    let count = 0; 
+
+    for (let i = 0; i<stringRef.length; i++){
+        if (stringRef[i] === "o" || stringRef[i]  === "u" || stringRef[i]  === "i" || stringRef[i]  === "e" ) {
+            count ++
+
+}
+    } 
+    return count 
+    }
+    console.log(countVowels("ioekeee"))
+
+    
