@@ -1,24 +1,18 @@
-
-
 function main(){
     console.log('getting started...');
-    dylanFunction();
     JamesB();
-    ernieWork();
     lukeWork();
-    AlexanderSeyler();
-};
+    ernieWork();
+}
 
-function dylanFunction(){
-console.log("Dylans Function");
-};
+document.addEventListener("DOMContentLoaded", function() {
+    main();
+})
 
+function JamesB() {
+    console.log("This function was made by James")    
+}
 
 function lukeWork(){
     console.log('lukes function');
-};
-
-function ernieWork(){
-    console.log('ernie function')
-};
-
+}
