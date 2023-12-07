@@ -6,6 +6,7 @@ function main(){
     JamesB();
     ernieWork();
     lukeWork();
+    AlexanderSeyler();
 };
 
 function dylanFunction(){
