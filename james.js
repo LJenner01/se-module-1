@@ -4,11 +4,12 @@ function JamesB() {
     findSquare(8);
     calFahrenheit(100);
     rectangleArea(6, 12);
-    perimeterAndArea(10)
+    perimeterAndArea(10);
+    reverseNum(123);
 }
 
 function displayMessage() {
-    console.log("Hello Boys!!")
+    console.log("Hello Boys!!");
 }
 
 function findSquare(a) {
@@ -16,7 +17,7 @@ function findSquare(a) {
 }
 
 function calFahrenheit(cel) {
-    return console.log((cel * 9/5) + 32);
+    return console.log((cel * 9/5) + 32)
 }
 
 function rectangleArea(a, b) {
@@ -25,6 +26,14 @@ function rectangleArea(a, b) {
 
 function perimeterAndArea(radius) {
     return console.log("Perimeter is " + (2*Math.PI*radius) + " and the area is " + Math.PI*(radius^2))
+}
+
+function reverseNum(x) {
+    var num = String(x);
+    var splitString = num.split("");
+    var reverseArray = splitString.reverse();
+    var joinArray = reverseArray.join("");
+    return console.log(joinArray)
 }
 
 module.exports = JamesB;
