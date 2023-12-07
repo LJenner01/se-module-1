@@ -1,4 +1,4 @@
-
+const JamesB = require("./james.js");
 
 function main(){
     console.log('getting started...');
@@ -22,3 +22,4 @@ function ernieWork(){
     console.log('ernie function')
 };
 include("alex.js");
+console.log(main())
