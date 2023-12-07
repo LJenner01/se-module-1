@@ -6,5 +6,13 @@ function main(){
     JamesB();
     lukeWork();
     ernieWork();
+    lukeWork();
+    AlexanderSeyler();
 }
 
+function lukeWork(){
+    console.log('lukes function');
+};
+
+
+console.log(main())
