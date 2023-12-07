@@ -1,4 +1,5 @@
 const JamesB = require("./james.js");
+const { dylanFunction } = require("./dylan.js");
 
 function main(){
     console.log('getting started...');
@@ -8,7 +9,6 @@ function main(){
     lukeWork();
     AlexanderSeyler();
 };
-import {dylanFunction} from './dylan.js';
 
 function lukeWork(){
     console.log('lukes function');
