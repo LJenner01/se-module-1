@@ -11,6 +11,7 @@ function ernieWork(){
     console.log(checkPalindrome("madam"));
     console.log(simpleInt(20000,5,2));
     console.log(genRandom());
+    console.log(getFactorial(12))
 
 
 
@@ -89,4 +90,23 @@ function simpleInt(principle, rate, time){
 function genRandom(){
     randomNumber = Math.floor(Math.random()*10) + 1;
     return randomNumber;
+}
+
+// write a function to find the factorial of a number
+
+function getFactorial(number){
+    // make sure factorial is 0 or 1
+    if (number ===0 || number === 1){
+        console.log(1);
+    }
+
+    else{
+        var result = 1;
+        num = 4
+        for (let i=2; i <= num; i ++) {
+            result *= i;
+        }
+    }
+    console.log("factorial:" + result);
+    
 }
