@@ -61,4 +61,25 @@ function countVowels(stringRef) {
     }
     console.log(countVowels("ioekeee"))
 
-    
+    // 8. Flatten array of arrays using JavaScript reduce
+
+
+function flattenList(list) {
+    return list.flat();
+}
+console.log(flattenList([[1, 2, 3], [1, 2, 3], [1, 3]]));
+
+
+
+//8. Write a function to check if an input string is a palindrome (same backswards as forwards) V0.0.2
+
+function checkString(string){
+
+    let reversestr = string.split('').reverse().join('') 
+
+if (string === reversestr) {
+    return true
+} else {
+    return false
+}}
+console.log(checkString('racecar'));
