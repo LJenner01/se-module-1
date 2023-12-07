@@ -9,7 +9,8 @@ function ernieWork(){
     console.log(reverseNum(123));
     console.log(flattenArr([[1, 2, 3], [4, 5, 6], [7, 8, 9]]));
     console.log(checkPalindrome("madam"));
-    console.log(simpleInt(1000,5,2));
+    console.log(simpleInt(20000,5,2));
+    console.log(genRandom());
 
 
 
@@ -81,4 +82,11 @@ function checkPalindrome(str){
 
 function simpleInt(principle, rate, time){
     return finalAmt = principle + (principle*rate*time);
+}
+
+// Question 12: Write a function to generate a random number
+
+function genRandom(){
+    randomNumber = Math.floor(Math.random()*10) + 1;
+    return randomNumber;
 }
