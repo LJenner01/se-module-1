@@ -102,3 +102,14 @@ return Math.floor(Math.random() * 1000);
 }
 
 console.log(randomNum())
+
+// 13. Write a function to find Factorial of a number
+
+function getFactorial(n){
+    if (n === 0 || n === 1) {
+    return 1;
+} else {
+return n * getFactorial(n - 1);
+}
+}
+console.log(getFactorial(8));
