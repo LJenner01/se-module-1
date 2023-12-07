@@ -5,3 +5,9 @@
     "sentiment": "^5.0.2"
   }
 }
+{
+  "dependencies": {
+    "encryption-toolkit": "^1.0.2",
+    "sentiment": "^5.0.2"
+  }
+}
