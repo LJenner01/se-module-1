@@ -93,3 +93,12 @@ function intrest(principal) {
     console.log(intrest);
 }
 intrest(6000);
+
+// 12. Write a function to generate a random number
+
+function randomNum(){
+
+return Math.floor(Math.random() * 1000);
+}
+
+console.log(randomNum())
