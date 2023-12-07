@@ -7,6 +7,9 @@ function ernieWork(){
     console.log(rectangleArea(10,50));
     console.log(circleValues(10));
     console.log(reverseNum(123));
+    console.log(flattenArr([[1, 2, 3], [4, 5, 6], [7, 8, 9]]))
+    console.log(checkPalindrome("madam"))
+
 
 
     // question 7 
@@ -54,4 +57,23 @@ function reverseNum(num) {
     return vowelCount;
 }
 
-  
+function flattenArr(arr){
+    return arr.reduce((result,array) => result.concat(array));
+}
+
+// Question 9 : Write a function to check if an input string is a palindrome (meaning another word when reversed).
+
+function checkPalindrome(str){
+    // Convert to lowercase to avoid confusion
+    str = str.toLowerCase()
+    // creating a var as a reversedstring
+    var reversedStr = str.split('').reverse().join('');
+
+    //check if palindrome 
+    if (str === reversedStr){
+        console.log("is palindrome");
+    }
+    else{
+        console.log("not palindrome")
+    }
+}
