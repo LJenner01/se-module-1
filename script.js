@@ -1,3 +1,6 @@
+const JamesB = require("./james.js");
+const ernieWork = require("./ernie.js");
+
 function main(){
     console.log('getting started...');
     JamesB();
@@ -5,14 +8,3 @@ function main(){
     ernieWork();
 }
 
-document.addEventListener("DOMContentLoaded", function() {
-    main();
-})
-
-function JamesB() {
-    console.log("This function was made by James")    
-}
-
-function lukeWork(){
-    console.log('lukes function');
-}
