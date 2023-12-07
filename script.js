@@ -6,6 +6,7 @@ function main(){
     JamesB();
     ernieWork();
     lukeWork();
+    Alex();
 };
 
 function dylanFunction(){
@@ -19,5 +20,5 @@ function lukeWork(){
 
 function ernieWork(){
     console.log('ernie function')
-}
+};
 include("alex.js");
