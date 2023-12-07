@@ -2,6 +2,7 @@ function main(){
     console.log('getting started...');
     JamesB();
     lukeWork();
+    ernieWork();
     AlexanderSeyler();
 }
 
