@@ -6,6 +6,7 @@ function JamesB() {
     rectangleArea(6, 12);
     perimeterAndArea(10);
     reverseNum(123);
+    countVowel("awesome")
 }
 
 function displayMessage() {
@@ -34,6 +35,16 @@ function reverseNum(x) {
     var reverseArray = splitString.reverse();
     var joinArray = reverseArray.join("");
     return console.log(joinArray)
+}
+
+function countVowel(word) {
+    var string = word.split("");
+    var resultVowel = string.filter(filterWord)
+    return console.log(resultVowel.length)
+}
+
+function filterWord(vowel) {
+    return vowel === 'a' || vowel === 'e' || vowel === 'i' || vowel === 'o' || vowel === 'u'
 }
 
 module.exports = JamesB;
