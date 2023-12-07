@@ -3,6 +3,7 @@ function JamesB() {
     displayMessage();
     findSquare(8);
     calFahrenheit(100);
+    rectangleArea(6, 12);
 }
 
 function displayMessage() {
@@ -15,6 +16,10 @@ function findSquare(a) {
 
 function calFahrenheit(cel) {
     return console.log((cel * 9/5) + 32);
+}
+
+function rectangleArea(a, b) {
+    return console.log(a*b + " is the area of the rectangle")
 }
 
 module.exports = JamesB;
