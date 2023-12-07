@@ -11,6 +11,7 @@ function JamesB() {
     palindrome("dogyyyy");
     simpleInt(20000,5,2);
     numberRandom(10, 30)
+    factorial(5)
 }
 
 // Question 1
@@ -94,6 +95,16 @@ function simpleInt(principle, rate, time) {
 
 function numberRandom(x, y) {
     return console.log(Math.floor(Math.random() * (y-x))+x)
+}
+
+// Question 13
+
+function factorial(num) {
+    let result = 1
+    for (i=1 ; i <= num ; i++)
+        result *= i
+    return console.log(result)
+
 }
 
 module.exports = JamesB;
