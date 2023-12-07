@@ -1,12 +1,7 @@
 function main(){
     console.log('getting started...');
-    dylanFunction();
-    JamesB();
-};
-
-function dylanFunction(){
-console.log("Dylans Function");
-};
-
+    JamesB()
+}
 function JamesB() {
-    console.log("This function was made by James")};
+    console.log("This function was made by James")
+}
