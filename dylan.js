@@ -17,3 +17,9 @@ console.log(temp * (9/5) + 32);
 };
 calFahrenheit(34);
 
+// 4. Write a function to find the area of a given Rectangle
+
+function rectangleArea(side1, side2) {
+console.log(side1 * side2);
+}
+rectangleArea(4, 5);
