@@ -14,5 +14,7 @@ return (cel*9/5)+32
 }
 
 function rectangleArea(area){
+    return
+
 
 }
