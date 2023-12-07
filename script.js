@@ -11,3 +11,7 @@ function JamesB() {
 function lukeWork(){
     console.log('lukes function');
 }
+
+function ernieWork(){
+    console.log('ernie function')
+}
