@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "encryption-toolkit": "^1.0.2"
+  }
+}
