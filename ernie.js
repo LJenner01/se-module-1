@@ -7,6 +7,18 @@ function ernieWork(){
     console.log(rectangleArea(10,50));
     console.log(circleValues(10));
     console.log(reverseNum(123));
+    console.log(flattenArr([[1, 2, 3], [4, 5, 6], [7, 8, 9]]));
+    console.log(checkPalindrome("madam"));
+    console.log(simpleInt(20000,5,2));
+    console.log(genRandom());
+    console.log(getFactorial(12))
+
+
+
+    // question 7 
+    const inputString = "Hello";
+    const result7 = countVowels(inputString);
+    console.log(`Number of vowels in "${inputString}": ${result7}`);
 }
 
 module.exports = ernieWork;
@@ -33,4 +45,68 @@ function reverseNum(num) {
     }
     return reverse;
   }
-  
+
+  function countVowels(inputString) {
+    const lowercaseString = inputString.toLowerCase(); // converting the string to lowercase
+    const vowels = new Set(['a', 'e', 'i', 'o', 'u']); //creating a vowel set for the below to count the relevant vowels
+
+    let vowelCount = 0;
+    for (let char of lowercaseString) {
+        if (vowels.has(char)) {
+            vowelCount++;
+        }
+    }
+
+    return vowelCount;
+}
+
+function flattenArr(arr){
+    return arr.reduce((result,array) => result.concat(array));
+}
+
+// Question 9 : Write a function to check if an input string is a palindrome (meaning another word when reversed).
+
+function checkPalindrome(str){
+    // Convert to lowercase to avoid confusion
+    str = str.toLowerCase()
+    // creating a var as a reversedstring
+    var reversedStr = str.split('').reverse().join('');
+
+    //check if palindrome 
+    if (str === reversedStr){
+        console.log("is palindrome");
+    }
+    else{
+        console.log("not palindrome")
+    }
+}
+
+function simpleInt(principle, rate, time){
+    return finalAmt = principle + (principle*rate*time);
+}
+
+// Question 12: Write a function to generate a random number
+
+function genRandom(){
+    randomNumber = Math.floor(Math.random()*10) + 1;
+    return randomNumber;
+}
+
+// write a function to find the factorial of a number
+
+function getFactorial(number){
+    // make sure factorial is 0 or 1
+    if (number ===0 || number === 1){
+        console.log(1);
+    }
+
+    else{
+        var result = 1;
+        num = 4
+        for (let i=2; i <= num; i ++) {
+            result *= i;
+        }
+    }
+    console.log("factorial:" + result);
+    
+}

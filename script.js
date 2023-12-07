@@ -24,5 +24,4 @@ function main(){
 
     console.log(decryptedText);
 }
-
 console.log(main())
