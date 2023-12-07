@@ -1,6 +1,6 @@
 const JamesB = require("./james.js");
 const { dylanFunction } = require("./dylan.js");
-const Alex = require("./alex.js");
+const alex = require("./alex.js");
 const ernieWork = require("./ernie.js");
 
 function main(){
@@ -9,11 +9,13 @@ function main(){
     lukeWork();
     ernieWork();
     lukeWork();
-    AlexanderSeyler();
+    //AlexanderSeyler();
 }
+
+
 
 function lukeWork(){
     console.log('lukes function');
-};
+}
 
 console.log(main())
