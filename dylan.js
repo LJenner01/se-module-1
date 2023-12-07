@@ -71,7 +71,7 @@ console.log(flattenList([[1, 2, 3], [1, 2, 3], [1, 3]]));
 
 
 
-//8. Write a function to check if an input string is a palindrome (same backswards as forwards) V0.0.2
+//9. Write a function to check if an input string is a palindrome (same backswards as forwards) V0.0.2
 
 function checkString(string){
 
@@ -83,3 +83,13 @@ if (string === reversestr) {
     return false
 }}
 console.log(checkString('racecar'));
+
+//10. Write a function to calculate simple interest based on the principle amount
+
+function intrest(principal) {
+    let years = 7;
+    let rate = 0.12;
+    intrest = principal * years * rate;
+    console.log(intrest);
+}
+intrest(6000);
