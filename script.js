@@ -1,7 +1,10 @@
 const JamesB = require("./james.js");
-const { dylanFunction } = require("./dylan.js");
+const dylanFunction = require("./dylan.js");
 const alex = require("./alex.js");
 const ernieWork = require("./ernie.js");
+const lukeWork = require("./lukes.js");
+const { encrypt, decrypt } = require('encryption-toolkit');
+
 
 function main(){
     console.log('getting started...');
@@ -9,13 +12,18 @@ function main(){
     lukeWork();
     ernieWork();
     lukeWork();
-    //AlexanderSeyler();
-}
+    Alex();
+    dylanFunction();
+    
+    const secretKey = 'my_secret_key'; const plainText = 'Hello, World!';
 
+    const encryptedData = encrypt(plainText, secretKey); 
+    console.log('Encrypted:', encryptedData);
+    
+   const decryptedText = decrypt(encryptedData, secretKey); 
+   console.log('Decrypted:', decryptedText);
 
-
-function lukeWork(){
-    console.log('lukes function');
+    //console.log(decryptedText);
 }
 
 console.log(main())
