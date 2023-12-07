@@ -23,3 +23,10 @@ function rectangleArea(side1, side2) {
 console.log(side1 * side2);
 }
 rectangleArea(4, 5);
+
+// 5. Write a function to find the area and perimeter of a Circle
+
+function circleArea(diameter) {
+console.log(3.14 * Math.pow(2, diameter))
+};
+circleArea(4)

@@ -1,6 +1,6 @@
 const JamesB = require("./james.js");
 const dylanFunction = require("./dylan.js");
-const Alex = require("./alex.js");
+const alex = require("./alex.js");
 const ernieWork = require("./ernie.js");
 const lukeWork = require("./lukes.js");
 const { encrypt, decrypt } = require('encryption-toolkit');
@@ -11,7 +11,6 @@ function main(){
     JamesB();
     lukeWork();
     ernieWork();
-    lukeWork();
     Alex();
     dylanFunction();
     
