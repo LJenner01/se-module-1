@@ -5,7 +5,7 @@ function ernieWork(){
     console.log('result');
     console.log(calFahrenheit(32));
     console.log(rectangleArea(10,50));
-    // console.log(radius(10));
+    console.log(circleValues(10));
 }
 
 module.exports = ernieWork;
@@ -18,6 +18,6 @@ function rectangleArea(a,b){
     return `Area rectangle ${a * b}`;
 }
 
-// function circleValues(radius){
-//     return 
-// }
+function circleValues(radius){
+    return `perimeter: ${2 * Math.PI* radius}, Area: ${Math.PI* radius *radius}`;
+}
