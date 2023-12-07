@@ -7,8 +7,9 @@ function ernieWork(){
     console.log(rectangleArea(10,50));
     console.log(circleValues(10));
     console.log(reverseNum(123));
-    console.log(flattenArr([[1, 2, 3], [4, 5, 6], [7, 8, 9]]))
-    console.log(checkPalindrome("madam"))
+    console.log(flattenArr([[1, 2, 3], [4, 5, 6], [7, 8, 9]]));
+    console.log(checkPalindrome("madam"));
+    console.log(simpleInt(1000,5,2));
 
 
 
@@ -76,4 +77,8 @@ function checkPalindrome(str){
     else{
         console.log("not palindrome")
     }
+}
+
+function simpleInt(principle, rate, time){
+    return finalAmt = principle + (principle*rate*time);
 }
