@@ -21,5 +21,5 @@ function lukeWork(){
 function ernieWork(){
     console.log('ernie function')
 };
-include("alex.js");
+main("alex.js");
 console.log(main())
