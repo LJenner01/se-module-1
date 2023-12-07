@@ -12,6 +12,7 @@ function main(){
     lukeWork();
     ernieWork();
     lukeWork();
+    Alex();
     dylanFunction();
     
     const secretKey = 'my_secret_key'; const plainText = 'Hello, World!';
