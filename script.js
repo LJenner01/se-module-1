@@ -5,6 +5,7 @@ function main(){
     JamesB();
     lukeWork();
     ernieWork();
+    AlexanderSeyler();
 }
 
 function lukeWork(){
