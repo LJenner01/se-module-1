@@ -11,7 +11,6 @@ function main(){
     JamesB();
     lukeWork();
     ernieWork();
-    lukeWork();
     Alex();
 
     
