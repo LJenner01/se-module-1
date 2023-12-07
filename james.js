@@ -9,7 +9,8 @@ function JamesB() {
     countVowel("awesome");
     //flattenArray([1, 2, [3, [4, 5, 6], 7], 8]);
     palindrome("dogyyyy");
-    simpleInt(20000,5,2)
+    simpleInt(20000,5,2);
+    numberRandom(10, 30)
 }
 
 // Question 1
@@ -88,5 +89,11 @@ function simpleInt(principle, rate, time) {
     var finalAmt = principle + principle*time*rate;
     return console.log(finalAmt); 
   }
+
+// Question 12
+
+function numberRandom(x, y) {
+    return console.log(Math.floor(Math.random() * (y-x))+x)
+}
 
 module.exports = JamesB;
