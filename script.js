@@ -7,11 +7,7 @@ function main(){
     ernieWork();
     lukeWork();
 };
-
-function dylanFunction(){
-console.log("Dylans Function");
-};
-
+import {dylanFunction} from './dylan.js';
 
 function lukeWork(){
     console.log('lukes function');
