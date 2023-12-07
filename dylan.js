@@ -113,3 +113,15 @@ return n * getFactorial(n - 1);
 }
 }
 console.log(getFactorial(8));
+
+// 16. Write a function to find the count of a letter in a string
+
+function letterCount(str, c) {
+    let count = 0;
+for (i = 0; i < str.length; i ++) {
+    if (str.charAt(i) == c) {
+        count ++; 
+    } 
+} return count 
+}
+console.log(letterCount('helloeee', 'e'))
