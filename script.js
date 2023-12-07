@@ -8,11 +8,7 @@ function main(){
     lukeWork();
     Alex();
 };
-
-function dylanFunction(){
-console.log("Dylans Function");
-};
-
+import {dylanFunction} from './dylan.js';
 
 function lukeWork(){
     console.log('lukes function');
