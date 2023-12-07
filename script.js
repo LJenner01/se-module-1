@@ -1,4 +1,4 @@
-
+const JamesB = require("./james.js");
 
 function main(){
     console.log('getting started...');
@@ -18,3 +18,4 @@ function ernieWork(){
     console.log('ernie function')
 };
 
+console.log(main())
