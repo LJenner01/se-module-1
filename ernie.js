@@ -11,7 +11,8 @@ function ernieWork(){
     console.log(checkPalindrome("madam"));
     console.log(simpleInt(20000,5,2));
     console.log(genRandom());
-    console.log(getFactorial(12))
+    console.log(getFactorial(12));
+    console.log(letterCount("Banana" , 'a'));
 
 
 
@@ -92,7 +93,7 @@ function genRandom(){
     return randomNumber;
 }
 
-// write a function to find the factorial of a number
+// Question 13 write a function to find the factorial of a number
 
 function getFactorial(number){
     // make sure factorial is 0 or 1
@@ -107,6 +108,20 @@ function getFactorial(number){
             result *= i;
         }
     }
-    console.log("factorial:" + result);
+    console.log("factorial:" + result)
     
 }
+
+// Question 16 Write a function to find the count of a letter in a string
+ 
+function letterCount(str , c){
+    var count=0;
+    str = str.toLowerCase();
+    for (var i=0; i<str.length; i++) 
+    if(str.charAt(i)==c){ 
+        count++;
+      }
+      return count;
+    }
+    
+    
