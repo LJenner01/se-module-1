@@ -7,7 +7,6 @@ var result = sentiment.analyze('Cats are stupid.');
 console.dir(result);    // Score: -2, Comparative: -0.666
     }
 
-module.exports = dylanFunction;
 
 
 // 3. Write a function to convert Celsius to Fahrenheit
@@ -74,15 +73,15 @@ console.log(flattenList([[1, 2, 3], [1, 2, 3], [1, 3]]));
 //9. Write a function to check if an input string is a palindrome (same backswards as forwards) V0.0.2
 
 function checkString(string){
-
-    let reversestr = string.split('').reverse().join('') 
+console.log(string);
+    let reversestr = string.split('').reverse().join('') ;
 
 if (string === reversestr) {
     return true
 } else {
     return false
-}}
-console.log(checkString('racecar'));
+}};
+
 
 //10. Write a function to calculate simple interest based on the principle amount
 
@@ -125,3 +124,6 @@ for (i = 0; i < str.length; i ++) {
 } return count 
 }
 console.log(letterCount('helloeee', 'e'))
+
+
+module.exports = { checkString, intrest }
