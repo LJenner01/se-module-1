@@ -72,14 +72,13 @@ function flattenArr(arr){
 }
 // Q9
 function checkPalindrome(str){
-    str = str.toLowerCase();
     let reveresed = str.split('').reverse().join('');
 
     if ( str === reveresed){
-        console.log (str + " is a palidrome.");
+        return true;
     }
     else{
-        console.log (str + " is not a palidrome.");
+        return false;
     }
 }
 // Q10
@@ -112,4 +111,4 @@ function letterCount(word,letter){
     return number;
 }
 
-module.exports = findSquare;
+module.exports = {findSquare,checkPalindrome,letterCount};
