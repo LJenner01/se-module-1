@@ -6,10 +6,12 @@ let array = [1, 2, 3, 4, 5]
 //Remove the element at the end of the array
 //Print the array to the console.
 
+//front remove and replace
 array.shift();
 array.unshift(22);
 console.log(array);
 
+//back remove and replace
 array.pop();
 array.push(44);
 console.log(array);
