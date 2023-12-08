@@ -112,4 +112,4 @@ function letterCount(word,letter){
     return number;
 }
 
-module.exports = Alex;
+module.exports = findSquare;
