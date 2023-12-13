@@ -25,7 +25,7 @@ function displayMessage() {
 // Question 2
 
 function findSquare(a) {
-    return console.log(a*a)
+    return a*a
 }
 
 // Question 3
@@ -37,7 +37,7 @@ function calFahrenheit(cel) {
 // Question 4
 
 function rectangleArea(a, b) {
-    return console.log(a*b + " is the area of the rectangle")
+    return a*b
 }
 
 // Question 5
@@ -61,7 +61,7 @@ function reverseNum(x) {
 function countVowel(word) {
     var string = word.split("");
     var resultVowel = string.filter(filterWord);
-    return console.log(resultVowel.length)
+    return resultVowel.length
 }
 
 function filterWord(vowel) {
@@ -121,4 +121,4 @@ function countLetter(word, letter) {
     return console.log(count)
 }
 
-module.exports = JamesB;
+module.exports = {rectangleArea, findSquare, countVowel};
