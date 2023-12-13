@@ -19,9 +19,9 @@ calFahrenheit(34);
 // 4. Write a function to find the area of a given Rectangle
 
 function rectangleArea(side1, side2) {
-console.log(side1 * side2);
+return (side1 * side2);
 }
-rectangleArea(4, 5);
+// rectangleArea(4, 5);
 
 // 5. Write a function to find the area and perimeter of a Circle
 
@@ -73,7 +73,7 @@ console.log(flattenList([[1, 2, 3], [1, 2, 3], [1, 3]]));
 //9. Write a function to check if an input string is a palindrome (same backswards as forwards) V0.0.2
 
 function checkString(string){
-console.log(string);
+   
     let reversestr = string.split('').reverse().join('') ;
 
 if (string === reversestr) {
@@ -81,7 +81,7 @@ if (string === reversestr) {
 } else {
     return false
 }};
-
+// console.log(checkString("racecar"));
 
 //10. Write a function to calculate simple interest based on the principle amount
 
@@ -126,4 +126,4 @@ for (i = 0; i < str.length; i ++) {
 console.log(letterCount('helloeee', 'e'))
 
 
-module.exports = { checkString, intrest }
+module.exports = { checkString, intrest, rectangleArea }
